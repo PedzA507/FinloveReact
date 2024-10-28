@@ -19,8 +19,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/signinuser" />} /> 
-        <Route exact path='/signinuser' element={<SignInUser />} />
+        
+        <Route exact path='/' element={<SignInUser />} />
         <Route exact path='/dashboard' element={<Dashboard />} />
         <Route exact path='/addemployee' element={<AddEmployee />} />
         <Route exact path='/managepreferences' element={<ManagePreferences />} />
